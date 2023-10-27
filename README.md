@@ -177,6 +177,129 @@ These token and type counts were determined after processing the data using <a h
 <p align = "justify">We began by creating a test set. To do this, we employed a random selection process, carefully choosing 250 unique and non-repeating rows from each of the sources outlined in <a href = "#domains">Domains</a>.
 The remaining data were divided into pairs, following an 80/20 split, while ensuring that the distribution of domains was maintained within both the training and validation sets.</p>
 
+<table align = "center">
+<thead align = "center">
+  <tr>
+    <th rowspan="3">Pair</th>
+    <th colspan="4">Train</th>
+    <th colspan="4">Valid</th>
+    <th colspan="4">Test</th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <th># lines</th>
+    <th># sents</th>
+    <th># tokens</th>
+    <th># types</th>
+    <th># lines</th>
+    <th># sents</th>
+    <th># tokens</th>
+    <th># types</th>
+    <th># lines</th>
+    <th># sents</th>
+    <th># tokens</th>
+    <th># types</th>
+  </tr>
+</thead>
+<tbody align = "center">
+  <tr>
+    <td>KK&harr;EN</td>
+    <td>290,877</td>
+    <td>286,864<br>286,130</td>
+    <td>3,690,674<br>5,054,426</td>
+    <td>164,986<br>54,321</td>
+    <td>72,720 </td>
+    <td>72,445 <br>72,385</td>
+    <td>923,105<br>1,263,142</td>
+    <td>82,915<br>31,840</td>
+    <td>4,750</td>
+    <td>4,750 <br>4,750</td>
+    <td>57,044<br>75,867</td>
+    <td>17,483<br>9,722 </td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK&harr;RU</td>
+    <td>290,973</td>
+    <td>286,961 <br>287,085</td>
+    <td>3,697,962<br>3,953,907</td>
+    <td>164,943<br>165,618</td>
+    <td>72,744 </td>
+    <td>72,452<br>72,453</td>
+    <td>919,629<br>984,583</td>
+    <td>83,173<br>87,698</td>
+    <td>4,750</td>
+    <td>4,750 <br>4,750</td>
+    <td>57,044<br>61,939</td>
+    <td>17,483<br>18,801</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK&harr;TR</td>
+    <td>289,784 </td>
+    <td>286,715 <br>285,650</td>
+    <td>3,691,291<br>3,644,221</td>
+    <td>164,744<br>157,820</td>
+    <td>72,446</td>
+    <td>72,231 <br>72,161</td>
+    <td>918,788<br>907,080</td>
+    <td>82,799<br>81,201</td>
+    <td>4,750</td>
+    <td>4,750 <br>4,750</td>
+    <td>57,044<br>56,249</td>
+    <td>17,483<br>17,399</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN&harr;RU</td>
+    <td>290,943 </td>
+    <td>286,161 <br>287,137</td>
+    <td>5,060,961<br>3,952,614</td>
+    <td>54,355<br>165,619</td>
+    <td>72,736 </td>
+    <td>72,378 <br>72,470</td>
+    <td>1,260,421<br>984,179</td>
+    <td>31,951<br>87,435</td>
+    <td>4,750</td>
+    <td>4,750 <br>4,750</td>
+    <td>75,867<br>61,939</td>
+    <td>9,722<br>18,801</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN&harr;TR</td>
+    <td>289,051 </td>
+    <td>285,907<br>285,528</td>
+    <td>5,024,415<br>3,619,889</td>
+    <td>54,271<br>157,806</td>
+    <td>72,263 </td>
+    <td>72,029 <br>72,009</td>
+    <td>1,252,488<br>902,613</td>
+    <td>31,830<br>80,908</td>
+    <td>4,750</td>
+    <td>4,750 <br>4,750</td>
+    <td>75,867<br>56,249</td>
+    <td>9,722<br>17,399</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU&harr;TR</td>
+    <td>291,036 </td>
+    <td>287,123 <br>285,818</td>
+    <td>3,956,995<br>3,653,913</td>
+    <td>165,396<br>158,004</td>
+    <td>72,759</td>
+    <td>72,471<br>72,409</td>
+    <td>981,430<br>905,389</td>
+    <td>87,625<br>81,352</td>
+    <td>4,750</td>
+    <td>4,750 <br>4,750</td>
+    <td>61,939<br>56,249</td>
+    <td>18,801<br>17,399</td>
+  </tr>
+</tbody>
+</table>
+
 
 
 ## Acknowledgements 🙏
