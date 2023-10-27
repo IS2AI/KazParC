@@ -26,14 +26,14 @@
 - phrasebooks
 - literary works
 - periodicals
-- language learning materials, including the SCoRE corpus by Chujo et al. (2015)[^1]
-- educational video subtitle collections, such as QED by Abdelali et al. (2014)[^2]
-- news items, such as KazNERD (Yeshpanov et al., 2022)[^3] and WMT (Tiedemann, 2012)[^4]
-- TED talks[^5]
-- governmental and regulatory legal documents from Kazakhstan[^6]
-- communications from the official website of the President of the Republic of Kazakhstan[^7]
-- United Nations publications[^8]
-- image captions from sources like COCO[^9]
+- language learning materials, including the SCoRE corpus by <a href = "https://www.torrossa.com/en/resources/an/5000845#page=118">Chujo et al. (2015)</a>
+- educational video subtitle collections, such as QED by <a href = "http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf">Abdelali et al. (2014)</a>
+- news items, such as KazNERD (<a href = "https://aclanthology.org/2022.lrec-1.44.pdf">Yeshpanov et al., 2022</a>) and WMT (<a href = "http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf">Tiedemann, 2012</a>)
+- <a href = "https://www.ted.com/">TED</a> talks
+- <a href = "https://adilet.zan.kz/">governmental and regulatory legal documents from Kazakhstan</a>
+- communications from <a href = "https://www.akorda.kz/">the official website of the President of the Republic of Kazakhstan</a>
+- <a href = "https://www.un.org/">United Nations</a> publications
+- image captions from sources like <a href = "https://arxiv.org/pdf/1405.0312.pdf%090.949.pdf">COCO</a>
 
 We categorized the data acquired from these sources into five broad domains:
 
@@ -100,18 +100,13 @@ We categorized the data acquired from these sources into five broad domains:
 Our team of linguists played a crucial role in ensuring the quality of the data. They carefully reviewed the collected data, screening it for inappropriate content. The next step involved segmenting the data into individual sentences, with each sentence labelled with a source identifier. We also paid close attention to grammar and spelling accuracy and removed any duplicate sentences.<br><br>
 Kazakh-Russian <a href = "https://en.wikipedia.org/wiki/Code-switching">code-switching</a> is a common practice in Kazakhstan, so we took steps to maintain uniformity. For sentences containing both Kazakh and Russian words, we initiated a modification process. This process involved translating the Russian elements into Kazakh while preserving the intended meaning of the sentences.</p>
 
+## Data Pre-Processing 🧹
+
+<p align = "justify">We organised the data into language pairs. We then carefully removed any unwanted characters and effectively replaced <a href = "https://en.wikipedia.org/wiki/Homoglyph">homoglyphs</a>.
+We also took care of formatting issues by eliminating line breaks (\n) and carriage returns (\r).
+We identified and removed duplicate entries, making sure to filter out rows with identical text in both language columns. 
+However, to make our corpus more diverse and include a broader range of synonyms for different words and expressions, we decided to keep lines with duplicate text within a single language column.</p>
+
 ## Acknowledgements 🙏
 
 <p align = "justify">We wish to convey our deep appreciation to the diligent group of translators whose exceptional contributions have been crucial to the successful realisation of this study. Their tireless efforts to ensure the accuracy and faithful rendition of the source materials have indeed proved invaluable. Our sincerest thanks go to the following esteemed individuals: Aigerim Baidauletova, Aigerim Boranbayeva, Ainagul Akmuldina, Aizhan Seipanova, Askhat Kenzhegulov, Assel Kospabayeva, Assel Mukhanova, Elmira Nikiforova, Gaukhar Rayanova, Gulim Kabidolda, Gulzhanat Abduldinova, Indira Yerkimbekova, Moldir Orazalinova, Saltanat Kemaliyeva, and Venera Spanbayeva.</p>
-
-## References 📚
-
-[^1]: [SCoRE](https://www.torrossa.com/en/resources/an/5000845#page=118)
-[^2]: [QED](http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf)
-[^3]: [KazNERD](https://aclanthology.org/2022.lrec-1.44.pdf)
-[^4]: [WMT](http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf)
-[^5]: [TED Talks](https://www.ted.com/)
-[^6]: [Kazakhstan Legal Documents](https://adilet.zan.kz/)
-[^7]: [Official Website of the President of the Republic of Kazakhstan](https://www.akorda.kz/)
-[^8]: [United Nations](https://www.un.org/)
-[^9]: [COCO](https://arxiv.org/pdf/1405.0312.pdf%090.949.pdf)
