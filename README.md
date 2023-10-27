@@ -187,18 +187,18 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
   </tr>
   <tr></tr>
   <tr>
-    <th># lines</th>
-    <th># sents</th>
-    <th># tokens</th>
-    <th># types</th>
-    <th># lines</th>
-    <th># sents</th>
-    <th># tokens</th>
-    <th># types</th>
-    <th># lines</th>
-    <th># sents</th>
-    <th># tokens</th>
-    <th># types</th>
+    <th>#<br>lines</th>
+    <th>#<br>sents</th>
+    <th>#<br>tokens</th>
+    <th>#<br>types</th>
+    <th>#<br>lines</th>
+    <th>#<br>sents</th>
+    <th>#<br>tokens</th>
+    <th>#<br>types</th>
+    <th>#<br>lines</th>
+    <th>#<br>sents</th>
+    <th>#<br>tokens</th>
+    <th>#<br>types</th>
   </tr>
 </thead>
 <tbody align = "center">
@@ -299,8 +299,6 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
   </tr>
 </tbody>
 </table>
-
-
 
 ## Acknowledgements 🙏
 
