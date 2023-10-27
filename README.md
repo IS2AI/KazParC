@@ -105,7 +105,11 @@ Kazakh-Russian <a href = "https://en.wikipedia.org/wiki/Code-switching">code-swi
 <p align = "justify">We organised the data into language pairs. We then carefully removed any unwanted characters and effectively replaced <a href = "https://en.wikipedia.org/wiki/Homoglyph">homoglyphs</a>.
 We also took care of formatting issues by eliminating line breaks (\n) and carriage returns (\r).
 We identified and removed duplicate entries, making sure to filter out rows with identical text in both language columns. 
-However, to make our corpus more diverse and include a broader range of synonyms for different words and expressions, we decided to keep lines with duplicate text within a single language column.</p>
+However, to make our corpus more diverse and include a broader range of synonyms for different words and expressions, we decided to keep lines with duplicate text within a single language column.<br><br>
+In the table below, you will find statistics regarding the language pairs present in our corpus.
+The column labelled '# lines' shows the total number of rows for each language pair. 
+In the columns labelled '# sents', '# tokens', and '# types', we provide counts of unique sentences, tokens, and <a href = "https://en.wikipedia.org/wiki/Type%E2%80%93token_distinction">word types</a> for each language pair. For these counts, the upper numbers correspond to the first language in the pair, and the lower numbers correspond to the second language. 
+These token and type counts were determined after processing the data using <a href = "https://pypi.org/project/mosestokenizer/">Moses Tokenizer 1.2.1</a>.</p>
 
 ## Acknowledgements 🙏
 
