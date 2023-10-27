@@ -111,6 +111,68 @@ The column labelled '# lines' shows the total number of rows for each language p
 In the columns labelled '# sents', '# tokens', and '# types', we provide counts of unique sentences, tokens, and <a href = "https://en.wikipedia.org/wiki/Type%E2%80%93token_distinction">word types</a> for each language pair. For these counts, the upper numbers correspond to the first language in the pair, and the lower numbers correspond to the second language. 
 These token and type counts were determined after processing the data using <a href = "https://pypi.org/project/mosestokenizer/">Moses Tokenizer 1.2.1</a>.</p>
 
+<table align = "center">
+<thead align = "center">
+  <tr>
+    <th>Pair</th>
+    <th># lines</th>
+    <th># sents</th>
+    <th># tokens</th>
+    <th># types</th>
+  </tr>
+  <tr></tr>
+</thead>
+<tbody align = "center">
+  <tr>
+    <td>KK&harr;EN</td>
+    <td>368,347</td>
+    <td>362,234<br>361,043</td>
+    <td>4,670,823<br>6,393,435</td>
+    <td>184,398<br>59,030</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK&harr;RU</td>
+    <td>368,467</td>
+    <td>362,234<br>362,529</td>
+    <td>4,674,635<br>5,000,429</td>
+    <td>184,398<br>182,915</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK&harr;TR</td>
+    <td>366,980</td>
+    <td>362,234<br>360,590</td>
+    <td>4,667,123<br>4,607,550</td>
+    <td>184,398<br>175,621</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN&harr;RU</td>
+    <td>368,429</td>
+    <td>361,043<br>362,529</td>
+    <td>6,397,249<br>4,998,732</td>
+    <td>59,030<br>182,915</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN&harr;TR</td>
+    <td>366,064</td>
+    <td>361,043<br>360,590</td>
+    <td>6,352,770<br>4,578,751</td>
+    <td>59,030<br>175,621</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU&harr;TR</td>
+    <td>368,545</td>
+    <td>362,529<br>360,590</td>
+    <td>5,000,364<br>4,615,551</td>
+    <td>182,915<br>175,621</td>
+  </tr>
+</tbody>
+</table>
+
 ## Acknowledgements 🙏
 
 <p align = "justify">We wish to convey our deep appreciation to the diligent group of translators whose exceptional contributions have been crucial to the successful realisation of this study. Their tireless efforts to ensure the accuracy and faithful rendition of the source materials have indeed proved invaluable. Our sincerest thanks go to the following esteemed individuals: Aigerim Baidauletova, Aigerim Boranbayeva, Ainagul Akmuldina, Aizhan Seipanova, Askhat Kenzhegulov, Assel Kospabayeva, Assel Mukhanova, Elmira Nikiforova, Gaukhar Rayanova, Gulim Kabidolda, Gulzhanat Abduldinova, Indira Yerkimbekova, Moldir Orazalinova, Saltanat Kemaliyeva, and Venera Spanbayeva.</p>
