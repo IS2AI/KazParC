@@ -31,7 +31,7 @@
 - news items, such as KazNERD (<a href = "https://aclanthology.org/2022.lrec-1.44.pdf">Yeshpanov et al., 2022</a>) and WMT (<a href = "http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf">Tiedemann, 2012</a>)
 - <a href = "https://www.ted.com/">TED</a> talks
 - <a href = "https://adilet.zan.kz/">governmental and regulatory legal documents from Kazakhstan</a>
-- communications from <a href = "https://www.akorda.kz/">the official website of the President of the Republic of Kazakhstan</a>
+- communications from the <a href = "https://www.akorda.kz/">official website of the President of the Republic of Kazakhstan</a>
 - <a href = "https://www.un.org/">United Nations</a> publications
 - image captions from sources like <a href = "https://arxiv.org/pdf/1405.0312.pdf%090.949.pdf">COCO</a>
 
@@ -94,13 +94,14 @@ We categorized the data acquired from these sources into five broad domains:
 </tbody>
 </table>
 
-## Data Collection 📅
+<h2>Data Collection 📅</h2>
 
 <p align = "justify">We started the data collection process in July 2021, and it continued until September 2023. During this period, we collected a vast amount of text materials and their translations.<br><br>
 Our team of linguists played a crucial role in ensuring the quality of the data. They carefully reviewed the collected data, screening it for inappropriate content. The next step involved segmenting the data into individual sentences, with each sentence labelled with a source identifier. We also paid close attention to grammar and spelling accuracy and removed any duplicate sentences.<br><br>
 Kazakh-Russian <a href = "https://en.wikipedia.org/wiki/Code-switching">code-switching</a> is a common practice in Kazakhstan, so we took steps to maintain uniformity. For sentences containing both Kazakh and Russian words, we initiated a modification process. This process involved translating the Russian elements into Kazakh while preserving the intended meaning of the sentences.</p>
 
-## Data Pre-Processing 🧹
+<h2>Data Pre-Processing 🧹</h2>
+
 
 <p align = "justify">We organised the data into language pairs. We then carefully removed any unwanted characters and effectively replaced <a href = "https://en.wikipedia.org/wiki/Homoglyph">homoglyphs</a>.
 We also took care of formatting issues by eliminating line breaks (\n) and carriage returns (\r).
@@ -173,7 +174,8 @@ These token and type counts were determined after processing the data using <a h
 </tbody>
 </table>
 
-## Data Splitting ✂️
+<h2>Data Splitting ✂️</h2>
+
 <p align = "justify">We began by creating a test set. To do this, we employed a random selection process, carefully choosing 250 unique and non-repeating rows from each of the sources outlined in <a href = "#domains">Domains</a>.
 The remaining data were divided into pairs, following an 80/20 split, while ensuring that the distribution of domains was maintained within both the training and validation sets.</p>
 
@@ -300,6 +302,169 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 </tbody>
 </table>
 
-## Acknowledgements 🙏
+<h2>Synthetic Corpus 🧪</h2>
+<p align = "justify">To make our parallel corpus more extensive and diverse and to explore how well our translation models perform when dealing with a combination of human-translated and machine-translated content, we carried out web crawling to gather a total of 1,797,066 sentences from English-language websites. These sentences were then automatically translated into Kazakh, Russian, and Turkish using the <a href = "https://translate.google.com/">Google Translate service</a>. In the context of our research, we refer to this collection of data as 'SynC' (Synthetic Corpus).</p>
+
+<table align = "center">
+<thead  align = "center">
+  <tr>
+    <th>Pair</th>
+    <th>#<br>lines</th>
+    <th>#<br>sents</th>
+    <th>#<br>tokens</th>
+    <th>#<br>types</th>
+  </tr>
+</thead>
+<tr></tr>
+<tbody align = "center">
+  <tr>
+    <td>KK&harr;EN</td>
+    <td>1,787,050</td>
+    <td>1,782,192<br>1,781,019</td>
+    <td>26,630,960<br>35,291,705</td>
+    <td>685,135<br>300,556</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK&harr;RU</td>
+    <td>1,787,448</td>
+    <td>1,782,192<br>1,777,500</td>
+    <td>26,654,195<br>30,241,895</td>
+    <td>685,135<br>672,146</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK&harr;TR</td>
+    <td>1,791,425</td>
+    <td>1,782,192<br>1,782,257</td>
+    <td>26,726,439<br>27,865,860</td>
+    <td>685,135<br>656,294</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN&harr;RU</td>
+    <td>1,784,513</td>
+    <td>1,781,019<br>362,529</td>
+    <td>35,244,800<br>30,175,611</td>
+    <td>300,556<br>672,146</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN&harr;TR</td>
+    <td>1,788,564</td>
+    <td>1,781,019<br>1,782,257</td>
+    <td>35,344,188<br>27,806,708</td>
+    <td>300,556<br>656,294</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU&harr;TR</td>
+    <td>1,788,027</td>
+    <td>1,777,500<br>1,782,257</td>
+    <td>30,269,083<br>27,816,210</td>
+    <td>672,146<br>656,294</td>
+  </tr>
+</tbody>
+</table>
+
+<p align = "justify">We further divided the synthetic corpus into training and validation sets with a 90/10 ratio.</p>
+
+<table align = "center">
+<thead align = "center">
+  <tr>
+    <th rowspan="3">Pair</th>
+    <th colspan="4">Train</th>
+    <th colspan="4">Valid</th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <th># lines</th>
+    <th># sents</th>
+    <th># tokens</th>
+    <th># types</th>
+    <th># lines</th>
+    <th># sents</th>
+    <th># tokens</th>
+    <th># types</th>
+  </tr>
+</thead>
+<tr></tr>
+<tbody align = "center">
+  <tr>
+    <td>KK&harr;EN</td>
+    <td>1,608,345</td>
+    <td>1,604,414<br>1,603,426</td>
+    <td>23,970,260<br>31,767,617</td>
+    <td>650,144<br>286,372</td>
+    <td>178,705</td>
+    <td>178,654<br>178,639</td>
+    <td>2,660,700<br>3,524,088</td>
+    <td>208,838<br>105,517</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK&harr;RU</td>
+    <td>1,608,703</td>
+    <td>1,604,468<br>1,600,643</td>
+    <td>23,992,148<br>27,221,583</td>
+    <td>650,170<br>642,604</td>
+    <td>178,745</td>
+    <td>178,691<br>178,642</td>
+    <td>2,662,047<br>3,020,312</td>
+    <td>209,188<br>235,642</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK&harr;TR</td>
+    <td>1,612,282</td>
+    <td>1,604,793<br>1,604,822</td>
+    <td>24,053,671<br>25,078,688</td>
+    <td>650,384<br>626,724</td>
+    <td>179,143</td>
+    <td>179,057<br>179,057</td>
+    <td>2,672,768<br>2,787,172</td>
+    <td>209,549<br>221,773</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN&harr;RU</td>
+    <td>1,606,061</td>
+    <td>1,603,199<br>1,600,372</td>
+    <td>31,719,781<br>27,158,101</td>
+    <td>286,645<br>642,686</td>
+    <td>178,452</td>
+    <td>178,419<br>178,379</td>
+    <td>3,525,019<br>3,017,510</td>
+    <td>104,834<br>235,069</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN&harr;TR</td>
+    <td>1,609,707</td>
+    <td>1,603,636<br>1,604,545</td>
+    <td>31,805,393<br>25,022,782</td>
+    <td>286,387<br>626,740</td>
+    <td>178,857</td>
+    <td>178,775<br>178,796</td>
+    <td>3,538,795<br>2,783,926</td>
+    <td>105,641<br>221,372</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU&harr;TR</td>
+    <td>1,609,224</td>
+    <td>1,600,605<br>1,604,521</td>
+    <td>27,243,278<br>25,035,274</td>
+    <td>642,797<br>626,587</td>
+    <td>178,803</td>
+    <td>178,695<br>178,750</td>
+    <td>3,025,805<br>2,780,936</td>
+    <td>235,970<br>221,792</td>
+  </tr>
+</tbody>
+</table>
+
+
+<h2>Acknowledgements 🙏</h2>
 
 <p align = "justify">We wish to convey our deep appreciation to the diligent group of translators whose exceptional contributions have been crucial to the successful realisation of this study. Their tireless efforts to ensure the accuracy and faithful rendition of the source materials have indeed proved invaluable. Our sincerest thanks go to the following esteemed individuals: Aigerim Baidauletova, Aigerim Boranbayeva, Ainagul Akmuldina, Aizhan Seipanova, Askhat Kenzhegulov, Assel Kospabayeva, Assel Mukhanova, Elmira Nikiforova, Gaukhar Rayanova, Gulim Kabidolda, Gulzhanat Abduldinova, Indira Yerkimbekova, Moldir Orazalinova, Saltanat Kemaliyeva, and Venera Spanbayeva.</p>
