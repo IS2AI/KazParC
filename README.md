@@ -17,7 +17,7 @@
 
 <p align = "center">This repository provides a <a href="https://github.com/IS2AI/KazParC/tree/main/dataset">dataset</a> and a neural machine translation model nicknamed <a href="https://github.com/IS2AI/KazParC/tree/main/scripts">Tilmash</a> for the paper <br><a href = "link_to_be_added"><b>KazParC: Kazakh Parallel Corpus for Machine Translation</b></a></p> 
 
-## Domains
+## Domains ℹ️ <a name = "domains"></a>
 
 <p align = "justify">We collected data for our Kazakh Parallel Corpus (referred to as KazParC) from a diverse range of textual sources. These sources include</p> 
 
@@ -174,7 +174,7 @@ These token and type counts were determined after processing the data using <a h
 </table>
 
 ## Data Splitting ✂️
-<p align = "justify">We began by creating a test set. To do this, we employed a random selection process, carefully choosing 250 unique and non-repeating rows from each of the sources outlined in [Domains](##Domains).
+<p align = "justify">We began by creating a test set. To do this, we employed a random selection process, carefully choosing 250 unique and non-repeating rows from each of the sources outlined in [here](#domains).
 The remaining data were divided into pairs, following an 80/20 split, while ensuring that the distribution of domains was maintained within both the training and validation sets.</p>
 
 
