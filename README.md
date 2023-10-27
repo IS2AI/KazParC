@@ -174,7 +174,7 @@ These token and type counts were determined after processing the data using <a h
 </table>
 
 ## Data Splitting ✂️
-<p align = "justify">We began by creating a test set. To do this, we employed a random selection process, carefully choosing 250 unique and non-repeating rows from each of the sources outlined in [Domains](#domains).
+<p align = "justify">We began by creating a test set. To do this, we employed a random selection process, carefully choosing 250 unique and non-repeating rows from each of the sources outlined in [Domains](##Domains).
 The remaining data were divided into pairs, following an 80/20 split, while ensuring that the distribution of domains was maintained within both the training and validation sets.</p>
 
 
