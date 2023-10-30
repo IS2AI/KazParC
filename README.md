@@ -465,6 +465,55 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 </table>
 
 <h2>Corpus Structure 🗂️</h2>
+
+<p align = "justify">The dataset folder is organized into two distinct groups based on their file prefixes. Files "01" through "14" have the "kazparc" prefix, while Files "15" to "27" have the "sync" prefix.</p>
+
+<b>KazParC files:</b>
+<ul>
+<li>File "01" contains the original, unprocessed text data for the four languages considered within KazParC.
+<li>Files "02" through "13" represent pre-processed texts divided into language pairs for training (Files "02" to "07") and validation (Files "08" to "13"). Language pairs are indicated within the filenames using two-letter language codes (e.g., en_kk).
+<li>File "14" is dedicated to pre-processed texts for use as the test set for the four languages in KazParC.
+</ul>
+
+<b>SynC files:</b>
+<ul>
+<li>File "15" contains raw, unprocessed text data for the four languages.</li>
+<li>Files "16" to "27" contain pre-processed text divided into language pairs for training (Files "16" to "21") and validation (Files "22" to "27") purposes.</li>
+</ul>
+
+<p align = "justify">In both "01" and "15," each line consists of specific components: a unique line identifier (<tt>id</tt>), texts in Kazakh (<tt>kk</tt>), English (<tt>en</tt>), Russian (<tt>ru</tt>), and Turkish (<tt>tr</tt>), along with accompanying domain information (<tt>domain</tt>). For the other files, the metadata includes <tt>id</tt>, the source language code (e.g., <tt>kk</tt>), the target language code (e.g., <tt>en</tt>), and <tt>domain</tt>.</p>
+
+```
+├── kazparc
+   ├── 01_kazparc_all_entries.csv
+   ├── 02_kazparc_train_en_kk.csv
+   ├── 03_kazparc_train_en_ru.csv
+   ├── 04_kazparc_train_en_tr.csv
+   ├── 05_kazparc_train_kk_ru.csv
+   ├── 06_kazparc_train_kk_tr.csv
+   ├── 07_kazparc_train_ru_tr.csv
+   ├── 08_kazparc_valid_en_kk.csv
+   ├── 09_kazparc_valid_en_ru.csv
+   ├── 10_kazparc_valid_en_tr.csv
+   ├── 11_kazparc_valid_kk_ru.csv
+   ├── 12_kazparc_valid_kk_tr.csv
+   ├── 13_kazparc_valid_ru_tr.csv
+   ├── 14_kazparc_test.csv
+├── sync
+   ├── 15_sync_all_entries.csv
+   ├── 16_sync_train_en_kk.csv
+   ├── 17_sync_train_en_ru.csv
+   ├── 18_sync_train_en_tr.csv
+   ├── 19_sync_train_kk_ru.csv
+   ├── 20_sync_train_kk_tr.csv
+   ├── 21_sync_train_ru_tr.csv
+   ├── 22_sync_valid_en_kk.csv
+   ├── 23_sync_valid_en_ru.csv
+   ├── 24_sync_valid_en_tr.csv
+   ├── 25_sync_valid_kk_ru.csv
+   ├── 26_sync_valid_kk_tr.csv
+   ├── 27_sync_valid_ru_tr.csv
+```
 <h2>Experimental Setup 🔬</h2>
 <h2>Acknowledgements 🙏</h2>
 
