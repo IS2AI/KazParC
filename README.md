@@ -15,7 +15,7 @@
   </a> 
 </p>
 
-<p align = "center">This repository provides a <a href="https://github.com/IS2AI/KazParC/tree/main/dataset">dataset</a> and a neural machine translation model nicknamed <a href="https://github.com/IS2AI/KazParC/tree/main/scripts">Tilmash</a> for the paper <br><a href = "link_to_be_added"><b>KazParC: Kazakh Parallel Corpus for Machine Translation</b></a></p> 
+<p align = "center">This repository provides a <a href="some_cloud_link">dataset</a> and a neural machine translation model nicknamed <a href="https://github.com/IS2AI/KazParC/tree/main/scripts">Tilmash</a> for the paper <br><a href = "link_to_be_added"><b>KazParC: Kazakh Parallel Corpus for Machine Translation</b></a></p> 
 
 <a name = "domains"><h2>Domains ℹ️</h2></a>
 
@@ -466,7 +466,7 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 
 <h2>Corpus Structure 🗂️</h2>
 
-<p align = "justify">The dataset folder is organized into two distinct groups based on their file prefixes. Files "01" through "14" have the "kazparc" prefix, while Files "15" to "27" have the "sync" prefix.</p>
+<p align = "justify">The <a href="some_cloud_link">dataset</a>a is organized into two distinct groups based on their file prefixes. Files "01" through "14" have the "kazparc" prefix, while Files "15" to "27" have the "sync" prefix.</p>
 
 ```
 ├── kazparc
