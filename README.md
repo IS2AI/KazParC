@@ -303,7 +303,7 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 </table>
 
 <h2>Synthetic Corpus 🧪</h2>
-<p align = "justify">To make our parallel corpus more extensive and diverse and to explore how well our translation models perform when dealing with a combination of human-translated and machine-translated content, we carried out web crawling to gather a total of 1,797,066 sentences from English-language websites. These sentences were then automatically translated into Kazakh, Russian, and Turkish using the <a href = "https://translate.google.com/">Google Translate service</a>. In the context of our research, we refer to this collection of data as 'SynC' (Synthetic Corpus).</p>
+<p align = "justify">To make our parallel corpus more extensive and diverse and to explore how well our translation models perform when dealing with a combination of human-translated and machine-translated content, we carried out web crawling to gather a total of 1,797,066 sentences from English-language websites. These sentences were then automatically translated into Kazakh, Russian, and Turkish using the <a href = "https://translate.google.com/">Google Translate</a> service. In the context of our research, we refer to this collection of data as 'SynC' (Synthetic Corpus).</p>
 
 <table align = "center">
 <thead  align = "center">
