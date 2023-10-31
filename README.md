@@ -516,6 +516,21 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 <p align = "justify">In both "01" and "15," each line consists of specific components: a unique line identifier (<tt>id</tt>), texts in Kazakh (<tt>kk</tt>), English (<tt>en</tt>), Russian (<tt>ru</tt>), and Turkish (<tt>tr</tt>), along with accompanying domain information (<tt>domain</tt>). For the other files, the metadata includes <tt>id</tt>, the source language code (e.g., <tt>kk</tt>), the target language code (e.g., <tt>en</tt>), and <tt>domain</tt>.</p>
 
 <h2>Experimental Setup 🔬</h2>
+
+<p align = "justify">In our study, we used Facebook's NLLB model, which supports translation for a wide range of languages, including Kazakh, English, Russian, and Turkish. To assess the performance of the model, we initially tested two versions: the <a href = "https://huggingface.co/facebook/nllb-200-1.3B">baseline</a> and the <a href = "https://huggingface.co/facebook/nllb-200-distilled-1.3B">distilled</a> models. We fine-tuned these versions on KazParC data. After comparing their results, we found that the distilled model consistently outperformed the baseline, though the difference was relatively small, with an improvement of just 0.01 BLEU score. Consequently, we focused our subsequent experiments exclusively on fine-tuning the distilled model.</p>
+
+<p align = "justify">We trained a total of four models:</p>
+<ol>
+<li>'base', the off-the-shelf model.</li>
+<li>'parc', fine-tuned on KazParC data.</li>
+<li>'sync', fine-tuned on SynC data.</li>
+<li>'parsync', fine-tuned on both KazParC and SynC data.</li>
+</ol>
+
+<p align = "justify">We fine-tuned these models using hyperparameters tuned with validation sets. We included synthetic data in the validation sets only when assessing the performance of the 'sync' and 'parsync' models. The best-performing models were then evaluated on the test sets.<br><br>
+In addition to the KazParC test set, we used the FLoRes dataset. We merged the 'dev' and 'devtest' sets from FLoRes into one set for our evaluation. We also explored language pairs, such as German-French, German-Ukrainian, and French-Uzbek, to assess how fine-tuning the model affected translation quality for different language pairs.<br><br>
+All the models were fine-tuned using eight GPUs on an NVIDIA DGX A100 machine. We initially set a learning rate of 2 &times; 10<sup>-5</sup> and used the AdaFactor optimization algorithm. The training process spanned three epochs, with both the training and evaluation batch sizes set to 8.</p>
+
 <h2>Acknowledgements 🙏</h2>
 
 <p align = "justify">We wish to convey our deep appreciation to the diligent group of translators whose exceptional contributions have been crucial to the successful realisation of this study. Their tireless efforts to ensure the accuracy and faithful rendition of the source materials have indeed proved invaluable. Our sincerest thanks go to the following esteemed individuals: Aigerim Baidauletova, Aigerim Boranbayeva, Ainagul Akmuldina, Aizhan Seipanova, Askhat Kenzhegulov, Assel Kospabayeva, Assel Mukhanova, Elmira Nikiforova, Gaukhar Rayanova, Gulim Kabidolda, Gulzhanat Abduldinova, Indira Yerkimbekova, Moldir Orazalinova, Saltanat Kemaliyeva, and Venera Spanbayeva.</p>
