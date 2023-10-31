@@ -528,13 +528,12 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 </ol>
 
 <p align = "justify">We fine-tuned these models using hyperparameters tuned with validation sets. We included synthetic data in the validation sets only when assessing the performance of the 'sync' and 'parsync' models. The best-performing models were then evaluated on the test sets.<br><br>
-In addition to the KazParC test set, we used the FLoRes dataset. We merged the 'dev' and 'devtest' sets from FLoRes into one set for our evaluation. We also explored language pairs, such as German-French, German-Ukrainian, and French-Uzbek, to assess how fine-tuning the model affected translation quality for different language pairs.<br><br>
+In addition to the KazParC test set, we used the FLoRes dataset. We merged the <tt>dev</tt> and <tt>devtest</tt> sets from FLoRes into one set for our evaluation. We also explored language pairs, such as German-French, German-Ukrainian, and French-Uzbek, to assess how fine-tuning the model affected translation quality for different language pairs.<br><br>
 All the models were fine-tuned using eight GPUs on an NVIDIA DGX A100 machine. We initially set a learning rate of 2 &times; 10<sup>-5</sup> and used the AdaFactor optimization algorithm. The training process spanned three epochs, with both the training and evaluation batch sizes set to 8.</p>
 
 <h2>Evaluation Metrics 📏</h2>
 
-<p align = "justify">In our evaluation of machine translation models, we used two widely recognised metrics:</p>. 
-
+<p align = "justify">In our evaluation of machine translation models, we used two widely recognised metrics:</p> 
 <ol>
 <li>BLEU, based on precision in 4-grams, measures how closely machine-produced translations match human references.</li>
 <li>chrF evaluates translation quality by considering character n-grams, making it well-suited for languages with complex morphologies (e.g., Kazakh and Turkish). chrF calculates the harmonic mean of character-based precision and recall, offering a robust evaluation of translation performance.</li>
