@@ -533,12 +533,12 @@ All the models were fine-tuned using eight GPUs on an NVIDIA DGX A100 machine. W
 
 <h2>Evaluation Metrics 📏</h2>
 
-<p align = "justify">In our evaluation of machine translation models, we used two widely recognised metrics: BLEU and chrF</p>. 
+<p align = "justify">In our evaluation of machine translation models, we used two widely recognised metrics:</p>. 
 
-<ul>
+<ol>
 <li>BLEU, based on precision in 4-grams, measures how closely machine-produced translations match human references.</li>
-<li>chrF evaluates translation quality by considering character n-grams, making it well-suited for languages with complex morphologies (e.g., Kazakh and Turkish). CHR-F calculates the harmonic mean of character-based precision and recall, offering a robust evaluation of translation performance.</li>
-</ul>
+<li>chrF evaluates translation quality by considering character n-grams, making it well-suited for languages with complex morphologies (e.g., Kazakh and Turkish). chrF calculates the harmonic mean of character-based precision and recall, offering a robust evaluation of translation performance.</li>
+</ol>
 Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better translation quality.
 
 <h2>Experiment Results 📈</h2>
