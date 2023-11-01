@@ -1072,8 +1072,8 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
   <tr></tr>
   <tr>
     <td>KK→TR</td>
-    <td>0.2</td>
-    <td>0.6</td>
+    <td>0.20</td>
+    <td>0.60</td>
     <td>0.15</td>
     <td>0.57</td>
     <td><b>0.29</b></td>
@@ -1084,9 +1084,9 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>RU→EN</td>
     <td>0.38</td>
     <td>0.73</td>
-    <td><b>0.4</b></td>
+    <td><b>0.40</b></td>
     <td>0.75</td>
-    <td><b>0.4</b></td>
+    <td><b>0.40</b></td>
     <td><b>0.76</b></td>
  </tr>
   <tr></tr>
@@ -1096,7 +1096,7 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.64</td>
     <td>0.22</td>
     <td>0.65</td>
-    <td><b>0.3</b></td>
+    <td><b>0.30</b></td>
     <td><b>0.67</b></td>
  </tr>
   <tr></tr>
@@ -1107,16 +1107,16 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.22</td>
     <td>0.65</td>
     <td><b>0.33</b></td>
-    <td><b>0.7</b></td>
+    <td><b>0.70</b></td>
  </tr>
   <tr></tr>
   <tr>
     <td>TR→EN</td>
     <td>0.38</td>
-    <td>0.7</td>
+    <td>0.70</td>
     <td>0.38</td>
-    <td>0.7</td>
-    <td><b>0.4</b></td>
+    <td>0.70</td>
+    <td><b>0.40</b></td>
     <td><b>0.71</b></td>
  </tr>
   <tr></tr>
@@ -1222,13 +1222,13 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.62</td>
     <td>0.18</td>
     <td>0.56</td>
-    <td><b>0.5</b></td>
+    <td><b>0.50</b></td>
     <td><b>0.77</b></td>
  </tr>
   <tr></tr>
   <tr>
     <td>RU→EN</td>
-    <td>0.4</td>
+    <td>0.40</td>
     <td>0.66</td>
     <td>0.41</td>
     <td>0.67</td>
@@ -1358,13 +1358,13 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td><b>0.68</b></td>
     <td>0.29</td>
     <td>0.66</td>
-    <td>0.3</td>
+    <td>0.30</td>
     <td>0.66</td>
  </tr>
   <tr></tr>
   <tr>
     <td>KK→TR</td>
-    <td>0.1</td>
+    <td>0.10</td>
     <td><b>0.52</b></td>
     <td>0.08</td>
     <td>0.47</td>
@@ -1379,7 +1379,7 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.39</td>
     <td>0.71</td>
     <td>0.38</td>
-    <td>0.7</td>
+    <td>0.70</td>
  </tr>
   <tr></tr>
   <tr>
@@ -1409,15 +1409,15 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.27</td>
     <td>0.59</td>
     <td>0.28</td>
-    <td>0.6</td>
+    <td>0.60</td>
  </tr>
   <tr></tr>
   <tr>
     <td>TR→KK</td>
     <td>0.14</td>
     <td>0.55</td>
-    <td>0.1</td>
-    <td>0.5</td>
+    <td>0.10</td>
+    <td>0.50</td>
     <td><b>0.16</b></td>
     <td><b>0.56</b></td>
  </tr>
@@ -1555,7 +1555,7 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.39</td>
     <td>0.69</td>
     <td>0.43</td>
-    <td>0.7</td>
+    <td>0.70</td>
  </tr>
   <tr></tr>
   <tr>
@@ -1610,8 +1610,8 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.58</td>
     <td>0.17</td>
     <td>0.58</td>
-    <td>0.19</td>
-    <td>0.59</td>
+    <td><b>0.19</b></td>
+    <td><b>0.59</b></td>
  </tr>
   <tr></tr>
   <tr>
@@ -1619,37 +1619,37 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.35</td>
     <td>0.67</td>
     <td>0.38</td>
-    <td>0.7</td>
-    <td>0.4</td>
-    <td>0.7</td>
+    <td><b>0.70</b></td>
+    <td><b>0.40</b></td>
+    <td><b>0.70</b></td>
  </tr>
   <tr></tr>
   <tr>
     <td>EN→TR</td>
-    <td>0.3</td>
+    <td>0.30</td>
     <td>0.66</td>
     <td>0.31</td>
     <td>0.67</td>
-    <td>0.41</td>
-    <td>0.72</td>
+    <td><b>0.41</b></td>
+    <td><b>0.72</b></td>
  </tr>
   <tr></tr>
   <tr>
     <td>KK→EN</td>
     <td>0.32</td>
-    <td>0.62</td>
+    <td><b>0.62</b></td>
     <td>0.32</td>
-    <td>0.62</td>
-    <td>0.33</td>
-    <td>0.62</td>
+    <td><b>0.62</b></td>
+    <td><b>0.33</b></td>
+    <td><b>0.62</b></td>
  </tr>
   <tr></tr>
   <tr>
     <td>KK→RU</td>
     <td>0.27</td>
     <td>0.61</td>
-    <td>0.29</td>
-    <td>0.62</td>
+    <td><b>0.29</b></td>
+    <td><b>0.62</b></td>
     <td>0.26</td>
     <td>0.59</td>
  </tr>
@@ -1660,48 +1660,48 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.57</td>
     <td>0.16</td>
     <td>0.55</td>
-    <td>0.26</td>
-    <td>0.62</td>
+    <td><b>0.26</b></td>
+    <td><b>0.62</b></td>
  </tr>
   <tr></tr>
   <tr>
     <td>RU→EN</td>
     <td>0.48</td>
     <td>0.73</td>
-    <td>0.53</td>
-    <td>0.76</td>
-    <td>0.5</td>
+    <td><b>0.53</b></td>
+    <td><b>0.76</b></td>
+    <td>0.50</td>
     <td>0.74</td>
  </tr>
   <tr></tr>
   <tr>
     <td>RU→KK</td>
     <td>0.21</td>
-    <td>0.6</td>
-    <td>0.22</td>
-    <td>0.62</td>
-    <td>0.2</td>
+    <td>0.60</td>
+    <td><b>0.22</b></td>
+    <td><b>0.62</b></td>
+    <td>0.20</td>
     <td>0.59</td>
  </tr>
   <tr></tr>
   <tr>
     <td>RU→TR</td>
     <td>0.22</td>
-    <td>0.6</td>
+    <td>0.60</td>
     <td>0.18</td>
     <td>0.58</td>
-    <td>0.26</td>
-    <td>0.63</td>
+    <td><b>0.26</b></td>
+    <td><b>0.63</b></td>
  </tr>
   <tr></tr>
   <tr>
     <td>TR→EN</td>
-    <td>0.4</td>
+    <td>0.40</td>
     <td>0.68</td>
-    <td>0.4</td>
+    <td>0.40</td>
     <td>0.68</td>
-    <td>0.41</td>
-    <td>0.69</td>
+    <td><b>0.41</b></td>
+    <td><b>0.69</b></td>
  </tr>
   <tr></tr>
   <tr>
@@ -1710,8 +1710,8 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.55</td>
     <td>0.14</td>
     <td>0.54</td>
-    <td>0.17</td>
-    <td>0.57</td>
+    <td><b>0.17</b></td>
+    <td><b>0.57</b></td>
  </tr>
   <tr></tr>
   <tr>
@@ -1720,8 +1720,8 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.57</td>
     <td>0.24</td>
     <td>0.58</td>
-    <td>0.25</td>
-    <td>0.59</td>
+    <td><b>0.25</b></td>
+    <td><b>0.59</b></td>
   </tr>
 </tbody>
 </table>
