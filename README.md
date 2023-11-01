@@ -542,6 +542,306 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
 
 <h2>Experiment Results 📈</h2>
 
+<table align = "center">
+<thead align = "center">
+  <tr>
+    <th rowspan="3">Pair</th>
+    <th colspan="6">FLoRes Test Set</th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <th>base</th>
+    <th>parc</th>
+    <th>sync</th>
+    <th>parsync</th>
+    <th>Yandex</th>
+    <th>Google</th>
+  </tr>
+</thead>
+<tbody align = "center">
+  <tr>
+    <td>EN↔KK</td>
+    <td>0.11 | 0.49</td>
+    <td>0.14 | 0.56</td>
+    <td><b>0.20</b> | <b>0.60</b></td>
+    <td><b>0.20</b> | <b>0.60</b></td>
+    <td>0.18 | 0.58</td>
+    <td><b>0.20</b> | <b>0.60</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN↔RU</td>
+    <td>0.25 | 0.56</td>
+    <td>0.26 | 0.58</td>
+    <td>0.28 | 0.60</td>
+    <td>0.28 | 0.60</td>
+    <td><b>0.32</b> | <b>0.63</b></td>
+    <td>0.31 | 0.62</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN↔TR</td>
+    <td>0.19 | 0.58</td>
+    <td>0.22 | 0.61</td>
+    <td>0.27 | 0.65</td>
+    <td>0.27 | 0.65</td>
+    <td>0.29 | <b>0.66</b></td>
+    <td><b>0.30</b> | <b>0.66</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK↔EN</td>
+    <td>0.28 | 0.59</td>
+    <td>0.32 | 0.62</td>
+    <td>0.31 | 0.62</td>
+    <td>0.32 | 0.63</td>
+    <td>0.30 | 0.62</td>
+    <td><b>0.36</b> | <b>0.65</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK↔RU</td>
+    <td>0.15 | 0.49</td>
+    <td>0.17 | 0.51</td>
+    <td>0.18 | 0.52</td>
+    <td>0.18 | 0.52</td>
+    <td>0.18 | 0.52</td>
+    <td><b>0.20</b> | <b>0.53</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK↔TR</td>
+    <td>0.09 | 0.48</td>
+    <td>0.13 | 0.52</td>
+    <td>0.14 | 0.54</td>
+    <td>0.14 | 0.54</td>
+    <td>0.12 | 0.52</td>
+    <td><b>0.17</b> | <b>0.56</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU↔EN</td>
+    <td>0.31 | 0.62</td>
+    <td>0.32 | 0.63</td>
+    <td>0.32 | 0.63</td>
+    <td>0.32 | 0.63</td>
+    <td>0.33 | 0.64</td>
+    <td><b>0.35</b> | <b>0.65</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU↔KK</td>
+    <td>0.08 | 0.49</td>
+    <td>0.10 | 0.52</td>
+    <td><b>0.13</b> | 0.53</td>
+    <td><b>0.13</b> | <b>0.54</b></td>
+    <td>0.12 | <b>0.54</b></td>
+    <td><b>0.13</b> | <b>0.54</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU↔TR</td>
+    <td>0.10 | 0.49</td>
+    <td>0.12 | 0.52</td>
+    <td>0.14 | 0.54</td>
+    <td>0.14 | 0.54</td>
+    <td>0.13 | 0.54</td>
+    <td><b>0.17</b> | <b>0.56</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>TR↔EN</td>
+    <td>0.34 | 0.64</td>
+    <td>0.35 | 0.65</td>
+    <td>0.36 | 0.66</td>
+    <td>0.36 | 0.66</td>
+    <td>0.38 | <b>0.67</b></td>
+    <td><b>0.39</b> | <b>0.67</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>TR↔KK</td>
+    <td>0.07 | 0.45</td>
+    <td>0.10 | 0.51</td>
+    <td><b>0.13</b> | <b>0.54</b></td>
+    <td><b>0.13</b> | <b>0.54</b></td>
+    <td>0.12 | 0.53</td>
+    <td><b>0.13</b> | <b>0.54</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>TR↔RU</td>
+    <td>0.15 | 0.48</td>
+    <td>0.17 | 0.51</td>
+    <td>0.18 | 0.52</td>
+    <td>0.19 | 0.53</td>
+    <td>0.20 | <b>0.54</b></td>
+    <td><b>0.21</b> | <b>0.54</b></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Average</td>
+    <td>0.18 | 0.53</td>
+    <td>0.20 | 0.56</td>
+    <td>0.22 | 0.58</td>
+    <td>0.22 | 0.58</td>
+    <td>0.23 | 0.58</td>
+    <td><b>0.25</b> | <b><0.59</b></td>
+  </tr>
+</tbody>
+</table>
+<p align = "center">BLEU | chrF scores for models on the FLoRes test</p>
+
+<table align = "center">
+<thead align = "center">
+  <tr>
+    <th rowspan="3">Pair</th>
+    <th colspan="6">KazParC Test Set</th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <th>base</th>
+    <th>parc</th>
+    <th>sync</th>
+    <th>parsync</th>
+    <th>Yandex</th>
+    <th>Google</th>
+  </tr>
+</thead>
+<tbody align = "center">
+  <tr>
+    <td>EN↔KK</td>
+    <td>0.12 | 0.51</td>
+    <td>0.18 | 0.58</td>
+    <td>0.18 | 0.58</td>
+    <td>0.21 | 0.60</td>
+    <td>0.18 | 0.58</td>
+    <td>0.30 | 0.65</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN↔RU</td>
+    <td>0.31 | 0.64</td>
+    <td>0.38 | 0.68</td>
+    <td>0.35 | 0.66</td>
+    <td>0.38 | 0.68</td>
+    <td>0.39 | 0.70</td>
+    <td>0.41 | 0.71</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>EN↔TR</td>
+    <td>0.19 | 0.59</td>
+    <td>0.22 | 0.62</td>
+    <td>0.25 | 0.63</td>
+    <td>0.25 | 0.64</td>
+    <td>0.27 | 0.64</td>
+    <td>0.34 | 0.68</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK↔EN</td>
+    <td>0.24 | 0.55</td>
+    <td>0.33 | 0.62</td>
+    <td>0.24 | 0.57</td>
+    <td>0.32 | 0.62</td>
+    <td>0.28 | 0.60</td>
+    <td>0.31 | 0.62</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK↔RU</td>
+    <td>0.22 | 0.56</td>
+    <td>0.29 | 0.63</td>
+    <td>0.24 | 0.59</td>
+    <td>0.29 | 0.63</td>
+    <td>0.29 | 0.63</td>
+    <td>0.29 | 0.61</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>KK↔TR</td>
+    <td>0.10 | 0.47</td>
+    <td>0.15 | 0.54</td>
+    <td>0.14 | 0.52</td>
+    <td>0.16 | 0.55</td>
+    <td>0.13 | 0.52</td>
+    <td>0.23 | 0.59</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU↔EN</td>
+    <td>0.34 | 0.63</td>
+    <td>0.43 | 0.71</td>
+    <td>0.34 | 0.65</td>
+    <td>0.42 | 0.70</td>
+    <td>0.43 | 0.71</td>
+    <td>0.42 | 0.71</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU↔KK</td>
+    <td>0.15 | 0.55</td>
+    <td>0.21 | 0.61</td>
+    <td>0.18 | 0.58</td>
+    <td>0.22 | 0.62</td>
+    <td>0.23 | 0.62</td>
+    <td>0.24 | 0.62</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>RU↔TR</td>
+    <td>0.11 | 0.49</td>
+    <td>0.16 | 0.56</td>
+    <td>0.16 | 0.55</td>
+    <td>0.18 | 0.57</td>
+    <td>0.16 | 0.55</td>
+    <td>0.22 | 0.60</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>TR↔EN</td>
+    <td>0.31 | 0.61</td>
+    <td>0.38 | 0.67</td>
+    <td>0.32 | 0.63</td>
+    <td>0.38 | 0.66</td>
+    <td>0.36 | 0.66</td>
+    <td>0.37 | 0.66</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>TR↔KK</td>
+    <td>0.08 | 0.46</td>
+    <td>0.14 | 0.53</td>
+    <td>0.14 | 0.52</td>
+    <td>0.16 | 0.55</td>
+    <td>0.14 | 0.53</td>
+    <td>0.19 | 0.57</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>TR↔RU</td>
+    <td>0.17 | 0.50</td>
+    <td>0.23 | 0.56</td>
+    <td>0.20 | 0.54</td>
+    <td>0.24 | 0.57</td>
+    <td>0.23 | 0.57</td>
+    <td>0.26 | 0.58</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Average</td>
+    <td>0.20 | 0.55</td>
+    <td>0.27 | 0.61</td>
+    <td>0.23 | 0.59</td>
+    <td>0.27 | 0.62</td>
+    <td>0.26 | 0.61</td>
+    <td>0.30 | 0.63</td>
+  </tr>
+</tbody>
+</table>
+<p align = "center">BLEU | chrF scores for models on the KazParC test</p>
+
 <h2>Acknowledgements 🙏</h2>
 
 <p align = "justify">We wish to convey our deep appreciation to the diligent group of translators whose exceptional contributions have been crucial to the successful realisation of this study. Their tireless efforts to ensure the accuracy and faithful rendition of the source materials have indeed proved invaluable. Our sincerest thanks go to the following esteemed individuals: Aigerim Baidauletova, Aigerim Boranbayeva, Ainagul Akmuldina, Aizhan Seipanova, Askhat Kenzhegulov, Assel Kospabayeva, Assel Mukhanova, Elmira Nikiforova, Gaukhar Rayanova, Gulim Kabidolda, Gulzhanat Abduldinova, Indira Yerkimbekova, Moldir Orazalinova, Saltanat Kemaliyeva, and Venera Spanbayeva.</p>
