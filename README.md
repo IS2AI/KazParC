@@ -844,6 +844,156 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
 
 <p align = "justify">After a comprehensive analysis of both qualitative and quantitative outcomes, we have found that the 'parsync' model, which was fine-tuned on a mix of the KazParC corpus and synthetic data, emerged as the top-performing model. Let us simply call this model <i>Tilmash</i>, a Kazakh term that means 'interpreter' or 'translator'.</p>
 
+<table align = "center">
+<thead align = "center">
+  <tr>
+    <th rowspan="3">Pair</th>
+    <th colspan="2">BLEU</th>
+    <th colspan="2">chrF</th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <th>base</th>
+    <th>Tilmash</th>
+    <th>base</th>
+    <th>Tilmash</th>
+  </tr>
+</thead>
+<tbody align = "center">
+  <tr>
+    <td>DE&rarr;FR</td>
+    <td>0.33</td>
+    <td>0.28</td>
+    <td>0.61</td>
+    <td>0.58</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>FR&rarr;DE</td>
+    <td>0.22</td>
+    <td>0.19</td>
+    <td>0.55</td>
+    <td>0.53</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>DE&rarr;UK</td>
+    <td>0.15</td>
+    <td>0.04</td>
+    <td>0.49</td>
+    <td>0.36</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>UK&rarr;DE</td>
+    <td>0.19</td>
+    <td>0.16</td>
+    <td>0.53</td>
+    <td>0.50</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>FR&rarr;UZ</td>
+    <td>0.06</td>
+    <td>0.02</td>
+    <td>0.48</td>
+    <td>0.31</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>UZ&rarr;FR</td>
+    <td>0.25</td>
+    <td>0.22</td>
+    <td>0.56</td>
+    <td>0.53</td>
+  </tr>
+</tbody>
+</table>
+<p align = "center">Results of the base and Tilmash models on the control language pairs on the FLoRes test set</p>
+
+<table align = "center">
+<thead align = "center">
+  <tr>
+    <th>Pair</th>
+    <th>Type</th>
+    <th>Text</th>
+    <th>BLEU</th>
+    <th>chrF</th>
+  </tr>
+<tr></tr>
+</thead>
+<tbody align = "center">
+  <tr>
+    <td rowspan="9">KK&rarr;EN</td>
+    <td>source</td>
+    <td align = "left", colspan="3"><i>Ыстық және желді.<br>ystyq jane jeldi.</i></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>reference</td>
+    <td align = "left"><i>It is hot and windy.</td>
+    <td>1.00</td>
+    <td>1.00</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Tilmash</td>
+    <td align = "left"><i>It's hot and windy.</td>
+    <td>0.55</td>
+    <td>0.81</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Yandex</td>
+    <td align = "left"><i>Hot and windy.</td>
+    <td>0.00</td>
+    <td>0.66</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Google</td>
+    <td align = "left"><i>Hot and windy.</td>
+    <td>0.00</td>
+    <td>0.66</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td rowspan="9">KK&rarr;EN</td>
+    <td>source</td>
+    <td align = "left", colspan="3"><i>1 қыркүйекте бесінші ана өлімі тіркелді.<br>1 qyrkuiekte besinshi ana olimi tirkeldi.</i></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>reference</td>
+    <td align = "left"><i>On September 1, the fifth maternal death was registered.</td>
+    <td>1.00</td>
+    <td>1.00</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Tilmash</td>
+    <td align = "left"><i>A fifth maternal death was recorded on 1 September.</td>
+    <td>0.27</td>
+    <td>0.63</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Yandex</td>
+    <td align = "left"><i>On September 1, the fifth maternal death was registered.</td>
+    <td>1.00</td>
+    <td>1.00</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Google</td>
+    <td align = "left"><i>On September 1, the fifth maternal death was recorded.</td>
+    <td>0.81</td>
+    <td>0.86</td>
+  </tr>
+</tbody>
+</table>
+<p align = "center">A selection of translation outputs from Tilmash, Yandex, and Google</p>
+
 <h2>Acknowledgements 🙏</h2>
 
 <p align = "justify">We wish to convey our deep appreciation to the diligent group of translators whose exceptional contributions have been crucial to the successful realisation of this study. Their tireless efforts to ensure the accuracy and faithful rendition of the source materials have indeed proved invaluable. Our sincerest thanks go to the following esteemed individuals: Aigerim Baidauletova, Aigerim Boranbayeva, Ainagul Akmuldina, Aizhan Seipanova, Askhat Kenzhegulov, Assel Kospabayeva, Assel Mukhanova, Elmira Nikiforova, Gaukhar Rayanova, Gulim Kabidolda, Gulzhanat Abduldinova, Indira Yerkimbekova, Moldir Orazalinova, Saltanat Kemaliyeva, and Venera Spanbayeva.</p>
