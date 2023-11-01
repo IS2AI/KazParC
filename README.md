@@ -680,13 +680,13 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
   </tr>
   <tr></tr>
   <tr>
-    <td>Average</td>
+    <td><b>Average</b></td>
     <td>0.18 | 0.53</td>
     <td>0.20 | 0.56</td>
     <td>0.22 | 0.58</td>
     <td>0.22 | 0.58</td>
     <td>0.23 | 0.58</td>
-    <td><b>0.25</b> | <b><0.59</b></td>
+    <td><b>0.25</b> | <b>0.59</b></td>
   </tr>
 </tbody>
 </table>
@@ -716,7 +716,7 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.18 | 0.58</td>
     <td>0.21 | 0.60</td>
     <td>0.18 | 0.58</td>
-    <td>0.30 | 0.65</td>
+    <td><b>0.30</b> | <b>0.65</b></td>
   </tr>
   <tr></tr>
   <tr>
@@ -726,7 +726,7 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.35 | 0.66</td>
     <td>0.38 | 0.68</td>
     <td>0.39 | 0.70</td>
-    <td>0.41 | 0.71</td>
+    <td><b>0.41</b> | <b>0.71</b></td>
   </tr>
   <tr></tr>
   <tr>
@@ -736,27 +736,27 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.25 | 0.63</td>
     <td>0.25 | 0.64</td>
     <td>0.27 | 0.64</td>
-    <td>0.34 | 0.68</td>
+    <td><b>0.34</b> | <b>0.68</b></td>
   </tr>
   <tr></tr>
   <tr>
     <td>KK↔EN</td>
     <td>0.24 | 0.55</td>
-    <td>0.33 | 0.62</td>
+    <td><b>0.33</b> | <b>0.62</b></td>
     <td>0.24 | 0.57</td>
-    <td>0.32 | 0.62</td>
+    <td>0.32 | <b>0.62</b></td>
     <td>0.28 | 0.60</td>
-    <td>0.31 | 0.62</td>
+    <td>0.31 | <b>0.62</b></td>
   </tr>
   <tr></tr>
   <tr>
     <td>KK↔RU</td>
     <td>0.22 | 0.56</td>
-    <td>0.29 | 0.63</td>
+    <td><b>0.29</b> | <b>0.63</b></td>
     <td>0.24 | 0.59</td>
-    <td>0.29 | 0.63</td>
-    <td>0.29 | 0.63</td>
-    <td>0.29 | 0.61</td>
+    <td><b>0.29</b> | <b>0.63</b></td>
+    <td><b>0.29</b> | <b>0.63</b></td>
+    <td><b>0.29</b> | 0.61</td>
   </tr>
   <tr></tr>
   <tr>
@@ -766,17 +766,17 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.14 | 0.52</td>
     <td>0.16 | 0.55</td>
     <td>0.13 | 0.52</td>
-    <td>0.23 | 0.59</td>
+    <td><b>0.23</b> | <b>0.59</b></td>
   </tr>
   <tr></tr>
   <tr>
     <td>RU↔EN</td>
     <td>0.34 | 0.63</td>
-    <td>0.43 | 0.71</td>
+    <td><b>0.43</b> | <b>0.71</b></td>
     <td>0.34 | 0.65</td>
     <td>0.42 | 0.70</td>
-    <td>0.43 | 0.71</td>
-    <td>0.42 | 0.71</td>
+    <td><b>0.43</b> | <b>0.71</b></td>
+    <td>0.42 | <b>0.71</b></td>
   </tr>
   <tr></tr>
   <tr>
@@ -784,9 +784,9 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.15 | 0.55</td>
     <td>0.21 | 0.61</td>
     <td>0.18 | 0.58</td>
-    <td>0.22 | 0.62</td>
-    <td>0.23 | 0.62</td>
-    <td>0.24 | 0.62</td>
+    <td>0.22 | <b>0.62</b></td>
+    <td>0.23 | <b>0.62</b></td>
+    <td><b>0.24</b> | <b>0.62</b></td>
   </tr>
   <tr></tr>
   <tr>
@@ -796,15 +796,15 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.16 | 0.55</td>
     <td>0.18 | 0.57</td>
     <td>0.16 | 0.55</td>
-    <td>0.22 | 0.60</td>
+    <td><b>0.22</b> | <b>0.60</b></td>
   </tr>
   <tr></tr>
   <tr>
     <td>TR↔EN</td>
     <td>0.31 | 0.61</td>
-    <td>0.38 | 0.67</td>
+    <td><b>0.38</b> | <b>0.67</b></td>
     <td>0.32 | 0.63</td>
-    <td>0.38 | 0.66</td>
+    <td><b>0.38</b> | 0.66</td>
     <td>0.36 | 0.66</td>
     <td>0.37 | 0.66</td>
   </tr>
@@ -816,7 +816,7 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.14 | 0.52</td>
     <td>0.16 | 0.55</td>
     <td>0.14 | 0.53</td>
-    <td>0.19 | 0.57</td>
+    <td><b>0.19</b> | <b>0.57</b></td>
   </tr>
   <tr></tr>
   <tr>
@@ -826,17 +826,17 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
     <td>0.20 | 0.54</td>
     <td>0.24 | 0.57</td>
     <td>0.23 | 0.57</td>
-    <td>0.26 | 0.58</td>
+    <td><b>0.26</b> | <b>0.58</b></td>
   </tr>
   <tr></tr>
   <tr>
-    <td>Average</td>
+    <td><b>Average</b></td>
     <td>0.20 | 0.55</td>
     <td>0.27 | 0.61</td>
     <td>0.23 | 0.59</td>
     <td>0.27 | 0.62</td>
     <td>0.26 | 0.61</td>
-    <td>0.30 | 0.63</td>
+    <td><b>0.30</b> | <b>0.63</b></td>
   </tr>
 </tbody>
 </table>
