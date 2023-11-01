@@ -842,6 +842,8 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
 </table>
 <p align = "center">BLEU | chrF scores for models on the KazParC test</p>
 
+<p align = "justify">After a comprehensive analysis of both qualitative and quantitative outcomes, we have found that the 'parsync' model, which was fine-tuned on a mix of the KazParC corpus and synthetic data, emerged as the top-performing model. Let us simply call this model <i>Tilmash</i>, a Kazakh term that means 'interpreter' or 'translator'.</p>
+
 <h2>Acknowledgements 🙏</h2>
 
 <p align = "justify">We wish to convey our deep appreciation to the diligent group of translators whose exceptional contributions have been crucial to the successful realisation of this study. Their tireless efforts to ensure the accuracy and faithful rendition of the source materials have indeed proved invaluable. Our sincerest thanks go to the following esteemed individuals: Aigerim Baidauletova, Aigerim Boranbayeva, Ainagul Akmuldina, Aizhan Seipanova, Askhat Kenzhegulov, Assel Kospabayeva, Assel Mukhanova, Elmira Nikiforova, Gaukhar Rayanova, Gulim Kabidolda, Gulzhanat Abduldinova, Indira Yerkimbekova, Moldir Orazalinova, Saltanat Kemaliyeva, and Venera Spanbayeva.</p>
