@@ -531,7 +531,9 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 In addition to the KazParC test set, we used the FLoRes dataset. We merged the <tt>dev</tt> and <tt>devtest</tt> sets from FLoRes into one set for our evaluation. We also explored language pairs, such as German-French, German-Ukrainian, and French-Uzbek, to assess how fine-tuning the model affected translation quality for different language pairs.<br><br>
 All the models were fine-tuned using eight GPUs on an NVIDIA DGX A100 machine. We initially set a learning rate of 2 &times; 10<sup>-5</sup> and used the AdaFactor optimization algorithm. The training process spanned three epochs, with both the training and evaluation batch sizes set to 8. In order to start training the model, you need to run the <tt>train.py</tt> script using the following command:
   
-<code>python3 -m torch.distributed.launch --nproc_per_node 8 --nnodes 1 train.py</code>
+```bash
+python3 -m torch.distributed.launch --nproc_per_node 8 --nnodes 1 train.py
+```
 </p>
 
 <h2>Evaluation Metrics 📏</h2>
@@ -1732,15 +1734,18 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
 </tbody>
 </table>
 
-<h2> Use of the model :rocket: </h2>
+<h2>Using Tilmash :rocket:</h2>
 
-You can translate a text using <code>predict.py</code>. For this, you need to download the model from ISSAI Hugging Face repository. In the script you need to choose the source and target languages (<code>src</code> and <code>trg</code> variables). They could contain the following values:
-* Kazakh: kaz_Cyrl
-* Russian: rus_Cyrl
-* English: eng_Latn
-* Turkish: tur_Latn
+<p align = "justify">To translate text, you can utilise the <tt>predict.py</tt> script. To get started, make sure to download Tilmash from <a href = "https://huggingface.co/issai/tilmash">our Hugging Face repository</a>. In the script, you will need to specify the source and target languages using the <tt>src</tt> and <tt>trg</tt> variables. You can choose from the following language values:</p>
 
-After this, enter the text that you want to translate in the <code>text</code> variable.
+<ul>
+<li>Kazakh: kaz_Cyrl</li>
+<li>Russian: rus_Cyrl</li>
+<li>English: eng_Latn</li>
+<li>Turkish: tur_Latn</li>
+</ul>
+
+<p align = "justify">Once you have set the languages, simply input the text you want to translate into the <tt>text</tt> variable.</p>
 
 <h2>Acknowledgements 🙏</h2>
 
