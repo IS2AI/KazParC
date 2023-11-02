@@ -529,7 +529,7 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 
 <p align = "justify">We fine-tuned these models using hyperparameters tuned with validation sets. We included synthetic data in the validation sets only when assessing the performance of the 'sync' and 'parsync' models. The best-performing models were then evaluated on the test sets.<br><br>
 In addition to the KazParC test set, we used the FLoRes dataset. We merged the <tt>dev</tt> and <tt>devtest</tt> sets from FLoRes into one set for our evaluation. We also explored language pairs, such as German-French, German-Ukrainian, and French-Uzbek, to assess how fine-tuning the model affected translation quality for different language pairs.<br><br>
-All the models were fine-tuned using eight GPUs on an NVIDIA DGX A100 machine. We initially set a learning rate of 2 &times; 10<sup>-5</sup> and used the AdaFactor optimization algorithm. The training process spanned three epochs, with both the training and evaluation batch sizes set to 8. In order to start training the model, you need to run the train.py script using the following command:
+All the models were fine-tuned using eight GPUs on an NVIDIA DGX A100 machine. We initially set a learning rate of 2 &times; 10<sup>-5</sup> and used the AdaFactor optimization algorithm. The training process spanned three epochs, with both the training and evaluation batch sizes set to 8. In order to start training the model, you need to run the <tt>train.py</tt>tt> script using the following command:
   
 <code>python3 -m torch.distributed.launch --nproc_per_node 8 --nnodes 1 train.py</code>
 </p>
