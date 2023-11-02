@@ -548,7 +548,7 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
 
 <h2>Experiment Results 📈</h2>
 
-<p align = "justify">We translated the test dataset using the <code>translating_testset.py</code> script. To obtain the BLEU and ChrF metrics we used <code>Evaluation.ipynb</code>. Below are the results we obtained from evaluating the Tilmash model on the KazParC and FLoRes test datasets.</p>
+<p align = "justify">We translated the test dataset using the <tt>translate_test_set.py</tt> script. To obtain the BLEU and ChrF metrics we used <tt>evaluation.ipynb</tt>. Below are the results we obtained from evaluating the Tilmash model on the KazParC and FLoRes test datasets.</p>
 
 <table align = "center">
 <thead align = "center">
