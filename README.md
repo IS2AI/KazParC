@@ -37,12 +37,6 @@
 
 We categorized the data acquired from these sources into five broad domains:
 
-1. Education and science
-2. Fiction
-3. General
-4. Legal documents
-5. Mass media
-
 <table align = "justify">
 <thead>
   <tr align = "center">
