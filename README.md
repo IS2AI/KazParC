@@ -338,7 +338,7 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
   <tr>
     <td>EN&harr;RU</td>
     <td>1,784,513</td>
-    <td>1,781,019<br>362,529</td>
+    <td>1,781,019<br>1,777,500</td>
     <td>35,244,800<br>30,175,611</td>
     <td>300,556<br>672,146</td>
   </tr>
