@@ -458,6 +458,10 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 </tbody>
 </table>
 
+<h2>Data vectorization</h2>
+The data was vectorized and using HuggingFace's transformers and datasets libraries. Each language pair was vectorized separately according to the source and target language in the pair. The data were then concatenated into united training and validation set, each containing 6 language pairs for both-way translation. 
+
+
 <h2>Corpus Structure 🗂️</h2>
 
 <p align = "justify">The <a href="some_cloud_link">corpus</a> is organized into two distinct groups based on their file prefixes. Files "01" through "14" have the "kazparc" prefix, while Files "15" to "27" have the "sync" prefix.</p>
