@@ -459,7 +459,7 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 </table>
 
 <h2>Data Vectorisation 🧮</h2>
-The data underwent vectorisation using HuggingFace's transformers and datasets libraries. Each language pair was vectorised individually based on the source and target languages within the pair. Subsequently, the vectorised data sets were combined into unified training and validation sets, each comprising 6 language pairs for bidirectional translation purposes. For more details, see <tt>data_tokenization.ipynb</tt>. 
+<p align = "justify">The data underwent vectorisation using HuggingFace's transformers and datasets libraries. Each language pair was vectorised individually based on the source and target languages within the pair. Subsequently, the vectorised data sets were combined into unified training and validation sets, each comprising 6 language pairs for bidirectional translation purposes. For more details, see <tt>data_tokenization.ipynb</tt>.</p> 
 
 <h2>Corpus Structure 🗂️</h2>
 
