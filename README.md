@@ -1753,3 +1753,18 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
 <h2>Acknowledgements 🙏</h2>
 
 <p align = "justify">We wish to convey our deep appreciation to the diligent group of translators whose exceptional contributions have been crucial to the successful realisation of this study. Their tireless efforts to ensure the accuracy and faithful rendition of the source materials have indeed proved invaluable. Our sincerest thanks go to the following esteemed individuals: Aigerim Baidauletova, Aigerim Boranbayeva, Ainagul Akmuldina, Aizhan Seipanova, Askhat Kenzhegulov, Assel Kospabayeva, Assel Mukhanova, Elmira Nikiforova, Gaukhar Rayanova, Gulim Kabidolda, Gulzhanat Abduldinova, Indira Yerkimbekova, Moldir Orazalinova, Saltanat Kemaliyeva, and Venera Spanbayeva.</p>
+
+<h2>Citation 🎓</h2>
+
+<p align = "justify">We kindly urge you, if you incorporate our dataset and/or model into your work, to cite our paper as a gesture of recognition for its valuable contribution. The act of referencing the relevant sources not only upholds academic honesty but also ensures proper acknowledgement of the authors' efforts. Your citation in your research significantly contributes to the continuous progress and evolution of the scholarly realm. Your endorsement and acknowledgement of our endeavours are genuinely appreciated.
+
+```bibtex
+@misc{yeshpanov2024kazparc,
+      title={KazParC: Kazakh Parallel Corpus}, 
+      author={Rustem Yeshpanov, Alina Polonskaya, Huseyin Atakan Varol},
+      year={2024},
+      eprint={},
+      archivePrefix={arXiv},
+      primaryClass={}
+}
+```
