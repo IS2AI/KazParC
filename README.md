@@ -1001,7 +1001,7 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
   <tr>
     <td rowspan="9">KK&rarr;EN</td>
     <td>source</td>
-    <td align = "left", colspan="3"><i>Ыстық және желді.<br>ystyq jane jeldi.</i></td>
+    <td align = "left", colspan="3"><i>Ыстық және желді.<br>Ystyq jane jeldi.</i></td>
   </tr>
   <tr></tr>
   <tr>
