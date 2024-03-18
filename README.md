@@ -35,16 +35,32 @@
 - <a href = "https://www.un.org/">United Nations</a> publications
 - image captions from sources like <a href = "https://arxiv.org/pdf/1405.0312.pdf%090.949.pdf">COCO</a>
 
-We categorized the data acquired from these sources into five broad domains:
+We categorised the data acquired from these sources into five broad domains:
 
 <table align = "justify">
 <thead>
   <tr align = "center">
-    <th rowspan="3">Domain</th>
-    <th colspan="2">lines</th>
+    <th rowspan="5">Domain</th>
+    <th colspan="2" rowspan="4">lines</th>
+    <th colspan="8">tokens</th>
   </tr>
   <tr></tr>
   <tr>
+    <th colspan="2">EN</th>
+    <th colspan="2">KK</th>
+    <th colspan="2">RU</th>
+    <th colspan="2">TR</th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <th>#</th>
+    <th>%</th>
+    <th>#</th>
+    <th>%</th>
+    <th>#</th>
+    <th>%</th>
+    <th>#</th>
+    <th>%</th>
     <th>#</th>
     <th>%</th>
   </tr>
@@ -54,35 +70,83 @@ We categorized the data acquired from these sources into five broad domains:
     <td align = "center">Mass media</td>
     <td>120,692</td>
     <td>32</td>
+    <td>2,101,904</td>
+    <td>29</td>
+    <td>1,610,209</td>
+    <td>29</td>
+    <td>1,762,296</td>
+    <td>29</td>
+    <td>1,571,429</td>
+    <td>29</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center">General</td>
     <td>95,085</td>
     <td>26</td>
+    <td>937,296</td>
+    <td>13</td>
+    <td>680,369</td>
+    <td>12</td>
+    <td>739,567</td>
+    <td>12</td>
+    <td>702,629</td>
+    <td>13</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center">Legal documents</td>
     <td>77,186</td>
     <td>21</td>
+    <td>2,955,236</td>
+    <td>41</td>
+    <td>2,223,034</td>
+    <td>40</td>
+    <td>2,341,958</td>
+    <td>39</td>
+    <td>2,202,250</td>
+    <td>40</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center">Education and science</td>
     <td>46,269</td>
     <td>12</td>
+    <td>603,848</td>
+    <td>8</td>
+    <td>470,881</td>
+    <td>9</td>
+    <td>543,259</td>
+    <td>9</td>
+    <td>448,368</td>
+    <td>8</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center">Fiction</td>
     <td>32,932</td>
     <td>9</td>
+    <td>673,981</td>
+    <td>9</td>
+    <td>551,521</td>
+    <td>1</td>
+    <td>620,049</td>
+    <td>1</td>
+    <td>517,644</td>
+    <td>1</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center"><b>Total</b></td>
     <td><b>372,164</b></td>
+    <td><b>100</b></td>
+    <td><b>7,272,265</b></td>
+    <td><b>100</b></td>
+    <td><b>5,536,014</b></td>
+    <td><b>100</b></td>
+    <td><b>6,007,129</b></td>
+    <td><b>100</b></td>
+    <td><b>5,442,320</b></td>
     <td><b>100</b></td>
   </tr>
 </tbody>
