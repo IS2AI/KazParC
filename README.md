@@ -1,4 +1,4 @@
-<h1 align="center">KazParC</h1>
+<h1 align="center">🌐 KazParC 📝</h1>
 
 <p align="center">
   <a href="https://github.com/IS2AI/KazParC/stargazers">
@@ -19,7 +19,7 @@
 
 <a name = "domains"><h2>Domains ℹ️</h2></a>
 
-<p align = "justify">We collected data for our Kazakh Parallel Corpus (referred to as KazParC) from a diverse range of textual sources. These sources include</p> 
+<p align = "justify">We collected data for our Kazakh Parallel Corpus (referred to as KazParC) from a diverse range of textual sources for Kazakh, English, Russian, and Turkish. These sources include</p> 
 
 - proverbs and sayings
 - terminology glossaries
