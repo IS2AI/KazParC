@@ -68,85 +68,85 @@ We categorised the data acquired from these sources into five broad domains:
 <tbody align = "right">
   <tr>
     <td align = "center">Mass media</td>
-    <td>120,692</td>
-    <td>32</td>
-    <td>2,101,904</td>
-    <td>29</td>
-    <td>1,610,209</td>
-    <td>29</td>
-    <td>1,762,296</td>
-    <td>29</td>
-    <td>1,571,429</td>
-    <td>29</td>
+    <td>120,547</td>
+    <td>32.4</td>
+    <td>1,817,276</td>
+    <td>28.3</td>
+    <td>1,340,346</td>
+    <td>28.6</td>
+    <td>1,454,430</td>
+    <td>29.0</td>
+    <td>1,311,985</td>
+    <td>28.5</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center">General</td>
-    <td>95,085</td>
-    <td>26</td>
-    <td>937,296</td>
-    <td>13</td>
-    <td>680,369</td>
-    <td>12</td>
-    <td>739,567</td>
-    <td>12</td>
-    <td>702,629</td>
-    <td>13</td>
+    <td>94,988</td>
+    <td>25.5</td>
+    <td>844,541</td>
+    <td>13.1</td>
+    <td>578,236</td>
+    <td>12.3</td>
+    <td>618,960</td>
+    <td>12.3</td>
+    <td>608,020</td>
+    <td>13.2</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center">Legal documents</td>
-    <td>77,186</td>
-    <td>21</td>
-    <td>2,955,236</td>
-    <td>41</td>
-    <td>2,223,034</td>
-    <td>40</td>
-    <td>2,341,958</td>
-    <td>39</td>
-    <td>2,202,250</td>
-    <td>40</td>
+    <td>77,183</td>
+    <td>20.8</td>
+    <td>2,650,626</td>
+    <td>41.3</td>
+    <td>1,925,561</td>
+    <td>41.0</td>
+    <td>1,991,222</td>
+    <td>39.7</td>
+    <td>1,880,081</td>
+    <td>40.8</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center">Education and science</td>
-    <td>46,269</td>
-    <td>12</td>
-    <td>603,848</td>
-    <td>8</td>
-    <td>470,881</td>
-    <td>9</td>
-    <td>543,259</td>
-    <td>9</td>
-    <td>448,368</td>
-    <td>8</td>
+    <td>46,252</td>
+    <td>12.4</td>
+    <td>522,830</td>
+    <td>8.1</td>
+    <td>392,348</td>
+    <td>8.4</td>
+    <td>444,786</td>
+    <td>8.9</td>
+    <td>376,484</td>
+    <td>8.2</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center">Fiction</td>
     <td>32,932</td>
-    <td>9</td>
-    <td>673,981</td>
-    <td>9</td>
-    <td>551,521</td>
-    <td>1</td>
-    <td>620,049</td>
-    <td>1</td>
-    <td>517,644</td>
-    <td>1</td>
+    <td>8.9</td>
+    <td>589,001</td>
+    <td>9.2</td>
+    <td>456,385</td>
+    <td>9.7</td>
+    <td>510,168</td>
+    <td>10.2</td>
+    <td>433,968</td>
+    <td>9.4</td>
   </tr>
   <tr></tr>
   <tr>
     <td align = "center"><b>Total</b></td>
-    <td><b>372,164</b></td>
+    <td><b>371,902</b></td>
     <td><b>100</b></td>
-    <td><b>7,272,265</b></td>
+    <td><b>6,424,274</b></td>
     <td><b>100</b></td>
-    <td><b>5,536,014</b></td>
+    <td><b>4,692,876</b></td>
     <td><b>100</b></td>
-    <td><b>6,007,129</b></td>
+    <td><b>5,019,566</b></td>
     <td><b>100</b></td>
-    <td><b>5,442,320</b></td>
+    <td><b>4,610,538</b></td>
     <td><b>100</b></td>
   </tr>
 </tbody>
