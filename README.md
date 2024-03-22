@@ -257,7 +257,7 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
     <th><b># lines</b></th>
     <th><b># lines</b></th>
     <th><b># sents</b></th>
-    <th>\textbf{ \# tokens}</th>
+    <th><b># tokens</b></th>
     <th><b># lines</b></th>
   </tr>
 </thead>
