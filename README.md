@@ -532,39 +532,39 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 ```
 ├── kazparc
    ├── 01_kazparc_all_entries.csv
-   ├── 02_kazparc_train_en_kk.csv
-   ├── 03_kazparc_train_en_ru.csv
-   ├── 04_kazparc_train_en_tr.csv
-   ├── 05_kazparc_train_kk_ru.csv
-   ├── 06_kazparc_train_kk_tr.csv
+   ├── 02_kazparc_train_kk_en.csv
+   ├── 03_kazparc_train_kk_ru.csv
+   ├── 04_kazparc_train_kk_tr.csv
+   ├── 05_kazparc_train_en_ru.csv
+   ├── 06_kazparc_train_en_tr.csv
    ├── 07_kazparc_train_ru_tr.csv
-   ├── 08_kazparc_valid_en_kk.csv
-   ├── 09_kazparc_valid_en_ru.csv
-   ├── 10_kazparc_valid_en_tr.csv
-   ├── 11_kazparc_valid_kk_ru.csv
-   ├── 12_kazparc_valid_kk_tr.csv
+   ├── 08_kazparc_valid_kk_en.csv
+   ├── 09_kazparc_valid_kk_ru.csv
+   ├── 10_kazparc_valid_kk_tr.csv
+   ├── 11_kazparc_valid_en_ru.csv
+   ├── 12_kazparc_valid_en_tr.csv
    ├── 13_kazparc_valid_ru_tr.csv
    ├── 14_kazparc_test.csv
 ├── sync
    ├── 15_sync_all_entries.csv
-   ├── 16_sync_train_en_kk.csv
-   ├── 17_sync_train_en_ru.csv
-   ├── 18_sync_train_en_tr.csv
-   ├── 19_sync_train_kk_ru.csv
-   ├── 20_sync_train_kk_tr.csv
+   ├── 16_sync_train_kk_en.csv
+   ├── 17_sync_train_kk_ru.csv
+   ├── 18_sync_train_kk_tr.csv
+   ├── 19_sync_train_en_ru.csv
+   ├── 20_sync_train_en_tr.csv
    ├── 21_sync_train_ru_tr.csv
-   ├── 22_sync_valid_en_kk.csv
-   ├── 23_sync_valid_en_ru.csv
-   ├── 24_sync_valid_en_tr.csv
-   ├── 25_sync_valid_kk_ru.csv
-   ├── 26_sync_valid_kk_tr.csv
+   ├── 22_sync_valid_kk_en.csv
+   ├── 23_sync_valid_kk_ru.csv
+   ├── 24_sync_valid_kk_tr.csv
+   ├── 25_sync_valid_en_ru.csv
+   ├── 26_sync_valid_en_tr.csv
    ├── 27_sync_valid_ru_tr.csv
 ```
 
 <b>KazParC files:</b>
 <ul>
 <li>File "01" contains the original, unprocessed text data for the four languages considered within KazParC.
-<li>Files "02" through "13" represent pre-processed texts divided into language pairs for training (Files "02" to "07") and validation (Files "08" to "13"). Language pairs are indicated within the filenames using two-letter language codes (e.g., en_kk).
+<li>Files "02" through "13" represent pre-processed texts divided into language pairs for training (Files "02" to "07") and validation (Files "08" to "13"). Language pairs are indicated within the filenames using two-letter language codes (e.g., kk_en).
 <li>File "14" is dedicated to pre-processed texts for use as the test set for the four languages in KazParC.
 </ul>
 
