@@ -179,7 +179,6 @@ These token and type counts were determined after processing the data using <a h
     <th># tokens</th>
     <th># types</th>
   </tr>
-  <tr></tr>
 </thead>
 <tbody align = "center">
   <tr>
@@ -189,7 +188,6 @@ These token and type counts were determined after processing the data using <a h
     <td>4,670,789<br>6,393,381</td>
     <td>184,258<br>59,062</td>
   </tr>
-  <tr></tr>
   <tr>
     <td>KK&harr;RU</td>
     <td>363,482</td>
@@ -197,7 +195,6 @@ These token and type counts were determined after processing the data using <a h
     <td>4,670,593<br>4,996,031</td>
     <td>184,258<br>183,204</td>
   </tr>
-  <tr></tr>
   <tr>
     <td>KK&harr;TR</td>
     <td>362,150</td>
@@ -205,7 +202,6 @@ These token and type counts were determined after processing the data using <a h
     <td>4,668,852<br>4,586,421</td>
     <td>184,258<br>175,145</td>
   </tr>
-  <tr></tr>
   <tr>
     <td>EN&harr;RU</td>
     <td>363,456</td>
@@ -213,7 +209,6 @@ These token and type counts were determined after processing the data using <a h
     <td>6,392,301<br>4,994,310</td>
     <td>59,062<br>183,204</td>
   </tr>
-  <tr></tr>
   <tr>
     <td>EN&harr;TR</td>
     <td>362,392</td>
@@ -221,7 +216,6 @@ These token and type counts were determined after processing the data using <a h
     <td>6,380,703<br>4,579,375</td>
     <td>59,062<br>175,145</td>
   </tr>
-  <tr></tr>
   <tr>
     <td>RU&harr;TR</td>
     <td>363,324</td>
