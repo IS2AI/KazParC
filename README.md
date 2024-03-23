@@ -574,7 +574,7 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 <li>Files "16" to "27" contain pre-processed text divided into language pairs for training (Files "16" to "21") and validation (Files "22" to "27") purposes.</li>
 </ul>
 
-<p align = "justify">In both "01" and "15", each line consists of specific components: a unique line identifier (<tt>id</tt>), texts in Kazakh (<tt>kk</tt>), English (<tt>en</tt>), Russian (<tt>ru</tt>), and Turkish (<tt>tr</tt>), along with accompanying domain information (<tt>domain</tt>). For the other files, the metadata include <tt>id</tt>, the source language code (e.g., <tt>kk</tt>), and the target language code (e.g., <tt>en</tt>).</p>
+<p align = "justify">In both "01" and "14", each line consists of specific components: a unique line identifier (<tt>id</tt>), texts in Kazakh (<tt>kk</tt>), English (<tt>en</tt>), Russian (<tt>ru</tt>), and Turkish (<tt>tr</tt>), along with accompanying domain information (<tt>domain</tt>). For the other files, the metadata include <tt>id</tt>, the source language code (e.g., <tt>kk</tt>), and the target language code (e.g., <tt>en</tt>).</p>
 
 <h2>Experimental Setup 🔬</h2>
 
