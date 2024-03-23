@@ -527,7 +527,7 @@ The remaining data were divided into pairs, following an 80/20 split, while ensu
 
 <h2>Corpus Structure 🗂️</h2>
 
-<p align = "justify">The <a href = "https://huggingface.co/datasets/issai/kazparc">corpus</a> is organized into two distinct groups based on their file prefixes. Files "01" through "14" have the "kazparc" prefix, while Files "15" to "27" have the "sync" prefix.</p>
+<p align = "justify">The <a href = "https://huggingface.co/datasets/issai/kazparc">corpus</a> is organized into two distinct groups based on their file prefixes. Files "01" through "19" have the "kazparc" prefix, while Files "20" to "32" have the "sync" prefix.</p>
 
 ```
 ├── kazparc
