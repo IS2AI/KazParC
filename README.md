@@ -13,10 +13,7 @@
     <img src="https://img.shields.io/static/v1?label=ISSAI&amp;message=official site&amp;color=blue&amp"
          alt="ISSAI Official Website">
   </a> 
-</p>
-
-<p align="center">
-  🤗 
+  <br>  🤗 <br>
   <a href="https://huggingface.co/datasets/issai/kazparc">
     <img src="https://img.shields.io/static/v1?label=HF&amp;message=dataset&amp;color=yellow"
          alt="Hugging Face Dataset">
