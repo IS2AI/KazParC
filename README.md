@@ -15,6 +15,18 @@
   </a> 
 </p>
 
+<p align="center">
+  🤗 
+  <a href="https://huggingface.co/datasets/issai/kazparc">
+    <img src="https://img.shields.io/static/v1?label=HF&amp;message=dataset&amp;color=yellow"
+         alt="Hugging Face Dataset">
+  </a>
+  <a href="https://huggingface.co/issai/tilmash">
+  <img src="https://img.shields.io/static/v1?label=HF&amp;message=model&amp;color=yellow"
+       alt="Hugging Face Model">
+  </a>
+</p>
+
 <p align = "center">This repository provides a <a href="https://huggingface.co/datasets/issai/kazparc">dataset</a> and a neural machine translation model nicknamed <a href="https://github.com/IS2AI/KazParC/tree/main/scripts">Tilmash</a> for the paper <br><a href = "link_to_be_added"><b>KazParC: Kazakh Parallel Corpus for Machine Translation</b></a></p> 
 
 <a name = "domains"><h2>Domains ℹ️</h2></a>
