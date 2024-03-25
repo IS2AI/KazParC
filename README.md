@@ -164,7 +164,7 @@ We categorised the data acquired from these sources into five broad domains:
 <h2>Data Collection 📅</h2>
 
 <p align = "justify">We started the data collection process in July 2021, and it continued until September 2023. During this period, we collected a vast amount of text materials and their translations.<br><br>
-Our team of linguists played a crucial role in ensuring the quality of the data. They carefully reviewed the collected data, screening it for inappropriate content. The next step involved segmenting the data into individual sentences, with each sentence labelled with a source identifier. We also paid close attention to grammar and spelling accuracy and removed any duplicate sentences.<br><br>
+Our team of linguists played a crucial role in ensuring the quality of the data. They carefully reviewed the collected data, screening it for inappropriate content. The next step involved segmenting the data into individual sentences, with each sentence labelled with a domain identifier. We also paid close attention to grammar and spelling accuracy and removed any duplicate sentences.<br><br>
 Kazakh-Russian <a href = "https://en.wikipedia.org/wiki/Code-switching">code-switching</a> is a common practice in <a href = "https://en.wikipedia.org/wiki/Kazakhstan">Kazakhstan</a>, so we took steps to maintain uniformity. For sentences containing both Kazakh and Russian words, we initiated a modification process. This process involved translating the Russian elements into Kazakh while preserving the intended meaning of the sentences.</p>
 
 <h2>Data Pre-Processing 🧹</h2>
