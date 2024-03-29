@@ -24,7 +24,7 @@
   </a>
 </p>
 
-<p align = "center">This repository provides a <a href="https://huggingface.co/datasets/issai/kazparc">dataset</a> and a neural machine translation model nicknamed <a href="https://github.com/IS2AI/KazParC/tree/main/scripts">Tilmash</a> for the paper <br><a href = "link_to_be_added"><b>KazParC: Kazakh Parallel Corpus for Machine Translation</b></a></p> 
+<p align = "center">This repository provides a <a href="https://huggingface.co/datasets/issai/kazparc">dataset</a> and a neural machine translation model nicknamed <a href="https://github.com/IS2AI/KazParC/tree/main/scripts">Tilmash</a> for the paper <br><a href = "https://arxiv.org/abs/2403.19399"><b>KazParC: Kazakh Parallel Corpus for Machine Translation</b></a></p> 
 
 <a name = "domains"><h2>Domains ℹ️</h2></a>
 
@@ -1837,11 +1837,11 @@ Both BLEU and chrF scores range from 0 to 1, where higher scores indicate better
 
 ```bibtex
 @misc{yeshpanov2024kazparc,
-      title={KazParC: Kazakh Parallel Corpus}, 
-      author={Rustem Yeshpanov, Alina Polonskaya, Huseyin Atakan Varol},
+      title={KazParC: Kazakh Parallel Corpus for Machine Translation}, 
+      author={Rustem Yeshpanov and Alina Polonskaya and Huseyin Atakan Varol},
       year={2024},
-      eprint={},
+      eprint={2403.19399},
       archivePrefix={arXiv},
-      primaryClass={}
+      primaryClass={cs.CL}
 }
 ```
